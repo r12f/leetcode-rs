@@ -6,7 +6,7 @@
 > 2. Uses <https://github.com/r12f/lcrt> for simpler final code.
 > 3. A bit different template and removing comments from the demo source code, since they are included in the lcrt lib already.
 
-Run `cargo run {id}` to initialize the template submission file of "question #id".
+Run `cargo run` to initialize the template submission file of "question #id".
 
 Run `cargo test test_{id}` to test the solution for "question #id".
 
@@ -14,4 +14,4 @@ Run `cargo test test_{id}` to test the solution for "question #id".
 
 * Remove all the solution .rs
 * Clean lib.rs file
-* Start your leetcode journey in rust by typing `cargo run {question_id}`
+* Start your leetcode journey in rust by typing `cargo run`
