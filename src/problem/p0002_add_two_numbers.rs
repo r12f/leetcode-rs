@@ -48,7 +48,46 @@ impl Solution {
         l1: Option<Box<ListNode>>,
         l2: Option<Box<ListNode>>,
     ) -> Option<Box<ListNode>> {
-        Some(Box::new(ListNode::new(0)))
+        let mut head = ListNode::new(0);
+        let mut node = &mut head;
+
+        let mut l1 = &l1;
+        let mut l2 = &l2;
+
+        let mut carry_over = 0;
+        while (l1.is_some() || l2.is_some()) {
+            let mut l1_val = 0;
+            let mut l2_val = 0;
+
+            if let Some(l1_node) = l1 {
+                l1_val = l1_node.val;
+                l1 = &l1_node.next;
+            }
+
+            if let Some(l2_node) = l2 {
+                l2_val = l2_node.val;
+                l2 = &l2_node.next;
+            }
+
+            let mut sum = l1_val + l2_val + carry_over;
+            if sum >= 10 {
+                carry_over = 1;
+                sum -= 10;
+            } else {
+                carry_over = 0;
+            }
+
+            let mut digit_node = Some(Box::new(ListNode::new(sum)));
+            node.next = digit_node;
+            node = node.next.as_mut().unwrap().as_mut();
+        }
+
+        if carry_over > 0 {
+            node.next = Some(Box::new(ListNode::new(carry_over)));
+        }
+
+        let ListNode { next: result, .. } = head;
+        result
     }
 }
 
@@ -60,5 +99,18 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_2() {}
+    fn test_2() {
+        lc_list_assert_eq!(Solution::add_two_numbers(lc_list!(), lc_list!()), ());
+        lc_list_assert_eq!(Solution::add_two_numbers(lc_list!(1), lc_list!()), (1));
+        lc_list_assert_eq!(Solution::add_two_numbers(lc_list!(1), lc_list!(1)), (2));
+        lc_list_assert_eq!(
+            Solution::add_two_numbers(lc_list!(2, 4, 3), lc_list!(5, 6, 4)),
+            (7, 0, 8)
+        );
+
+        lc_list_assert_eq!(
+            Solution::add_two_numbers(lc_list!(9, 9, 9, 9, 9, 9, 9), lc_list!(9, 9, 9, 9)),
+            (8, 9, 9, 9, 0, 0, 0, 1)
+        );
+    }
 }
