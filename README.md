@@ -15,3 +15,7 @@ Run `cargo test test_{id}` to test the solution for "question #id".
 * Remove all the solution .rs
 * Clean lib.rs file
 * Start your leetcode journey in rust by typing `cargo run`
+
+## License
+
+Apache-2.0: <https://www.apache.org/licenses/LICENSE-2.0>
