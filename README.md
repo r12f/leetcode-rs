@@ -1,8 +1,8 @@
 # My Leetcode Solution in Rust
 
-> This project is based on <https://github.com/aylei/leetcode-rust>, but with my own rust code and certain issue fixed, e.g.:
+> This project is based on <https://github.com/aylei/leetcode-rust> (Great project! Saved me a ton of setup time. Please give it star!), but with my own rust code and certain updates, e.g.:
 > 
-> 1. Problem HTML description to markdown conversion.
+> 1. Fixed the problem HTML description to markdown conversion.
 > 2. Uses <https://github.com/r12f/lcrt> for simpler final code and add more tools for testing.
 > 3. A bit different template and removing comments from the demo source code, since they are included in the lcrt lib already.
 
