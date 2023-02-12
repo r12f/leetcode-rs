@@ -15,6 +15,7 @@ __PROBLEM_DEFAULT_CODE__
 #[cfg(test)]
 mod tests {
     use super::*;
+    use pretty_assertions::assert_eq;
 
     #[test]
     fn test___PROBLEM_ID__() {
