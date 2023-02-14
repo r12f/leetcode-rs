@@ -10,3 +10,4 @@ mod s0339_nested_list_weight_sum;
 mod s0346_moving_average_from_data_stream;
 mod s0408_valid_word_abbreviation;
 mod s1570_dot_product_of_two_sparse_vectors;
+mod s1762_buildings_with_an_ocean_view;
