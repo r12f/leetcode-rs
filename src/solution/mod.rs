@@ -9,3 +9,4 @@ mod s0283_move_zeroes;
 mod s0339_nested_list_weight_sum;
 mod s0346_moving_average_from_data_stream;
 mod s0408_valid_word_abbreviation;
+mod s1570_dot_product_of_two_sparse_vectors;

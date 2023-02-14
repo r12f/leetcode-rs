@@ -1,1 +1,1 @@
-mod p0157_read_n_characters_given_read4;
+mod p0157_read_n_characters_given_read4;mod p1570_dot_product_of_two_sparse_vectors;
