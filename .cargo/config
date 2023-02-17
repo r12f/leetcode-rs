@@ -1,2 +1,2 @@
 [build]
-rustflags = ["-A", "unused"]
+rustflags = ["-A", "unused", "-A", "non_snake_case"]
