@@ -14,3 +14,4 @@ mod s1570_dot_product_of_two_sparse_vectors;
 mod s1762_buildings_with_an_ocean_view;
 mod s2562_find_the_array_conc_val;
 mod s2563_count_the_number_of_fair_pairs;
+mod s1249_minimum_remove_to_make_valid_parentheses;
