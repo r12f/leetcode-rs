@@ -15,3 +15,8 @@ mod s1762_buildings_with_an_ocean_view;
 mod s2562_find_the_array_conc_val;
 mod s2563_count_the_number_of_fair_pairs;
 mod s1249_minimum_remove_to_make_valid_parentheses;
+mod s0005_longest_palindromic_substring;
+mod s0049_group_anagrams;
+mod s0157_read_n_characters_given_read4;
+mod s0721_accounts_merge;
+mod s0028_find_the_index_of_the_first_occurrence_in_a_string;
