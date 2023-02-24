@@ -21,3 +21,7 @@ mod s0157_read_n_characters_given_read4;
 mod s0721_accounts_merge;
 mod s0028_find_the_index_of_the_first_occurrence_in_a_string;
 mod s1584_min_cost_to_connect_all_points;
+mod s0023_merge_k_sorted_lists;
+mod s0024_swap_nodes_in_pairs;
+mod s0025_reverse_nodes_in_k_group;
+mod s0061_rotate_list;
