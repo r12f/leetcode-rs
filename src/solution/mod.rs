@@ -32,3 +32,6 @@ mod s0310_minimum_height_trees;
 mod s0437_path_sum_iii;
 mod s0662_maximum_width_of_binary_tree;
 mod s0863_all_nodes_distance_k_in_binary_tree;
+mod s0127_word_ladder;
+mod s0787_cheapest_flights_within_k_stops;
+mod s0815_bus_routes;
