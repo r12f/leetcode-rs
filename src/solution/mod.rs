@@ -40,3 +40,5 @@ mod s0146_lru_cache;
 mod s0011_container_with_most_water;
 mod s0239_sliding_window_maximum;
 mod s0042_trapping_rain_water;
+mod s0013_roman_to_integer;
+mod s0150_evaluate_reverse_polish_notation;
