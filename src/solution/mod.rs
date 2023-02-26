@@ -36,3 +36,7 @@ mod s0127_word_ladder;
 mod s0787_cheapest_flights_within_k_stops;
 mod s0815_bus_routes;
 mod s0981_time_based_key_value_store;
+mod s0146_lru_cache;
+mod s0011_container_with_most_water;
+mod s0239_sliding_window_maximum;
+mod s0042_trapping_rain_water;
