@@ -60,3 +60,5 @@ mod s1143_longest_common_subsequence;
 mod s0055_jump_game;
 mod s0528_random_pick_with_weight;
 mod s0153_find_minimum_in_rotated_sorted_array;
+mod s0658_find_k_closest_elements;
+mod s0875_koko_eating_bananas;
