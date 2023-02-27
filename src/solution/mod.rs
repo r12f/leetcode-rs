@@ -44,3 +44,8 @@ mod s0013_roman_to_integer;
 mod s0150_evaluate_reverse_polish_notation;
 mod s0008_string_to_integer_atoi;
 mod s0739_daily_temperatures;
+mod s0139_word_break;
+mod s0542_01_matrix;
+mod s0295_find_median_from_data_stream;
+mod s0221_maximal_square;
+mod s0632_smallest_range_covering_elements_from_k_lists;
