@@ -55,3 +55,5 @@ mod s0079_word_search;
 mod s0134_gas_station;
 mod s2244_minimum_rounds_to_complete_all_tasks;
 mod s2136_earliest_possible_day_of_full_bloom;
+mod s0300_longest_increasing_subsequence;
+mod s1143_longest_common_subsequence;
