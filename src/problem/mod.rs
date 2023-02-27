@@ -1,2 +1,2 @@
 mod p0084_largest_rectangle_in_histogram;
-mod p0460_lfu_cache;
+mod p0460_lfu_cache;mod p1534_count_good_triplets;

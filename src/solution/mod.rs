@@ -57,3 +57,6 @@ mod s2244_minimum_rounds_to_complete_all_tasks;
 mod s2136_earliest_possible_day_of_full_bloom;
 mod s0300_longest_increasing_subsequence;
 mod s1143_longest_common_subsequence;
+mod s0055_jump_game;
+mod s0528_random_pick_with_weight;
+mod s0153_find_minimum_in_rotated_sorted_array;
