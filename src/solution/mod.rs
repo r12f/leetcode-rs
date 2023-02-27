@@ -49,3 +49,5 @@ mod s0542_01_matrix;
 mod s0295_find_median_from_data_stream;
 mod s0221_maximal_square;
 mod s0632_smallest_range_covering_elements_from_k_lists;
+mod s0017_letter_combinations_of_a_phone_number;
+mod s0078_subsets;
