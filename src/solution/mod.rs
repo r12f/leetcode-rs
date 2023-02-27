@@ -53,3 +53,5 @@ mod s0017_letter_combinations_of_a_phone_number;
 mod s0078_subsets;
 mod s0079_word_search;
 mod s0134_gas_station;
+mod s2244_minimum_rounds_to_complete_all_tasks;
+mod s2136_earliest_possible_day_of_full_bloom;
