@@ -1,4 +1,4 @@
 mod p0004_median_of_two_sorted_arrays;
 mod p0084_largest_rectangle_in_histogram;
 mod p0460_lfu_cache;
-mod p1534_count_good_triplets;
+mod p1534_count_good_triplets;mod p0036_valid_sudoku;

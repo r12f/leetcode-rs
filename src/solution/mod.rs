@@ -63,3 +63,4 @@ mod s0153_find_minimum_in_rotated_sorted_array;
 mod s0658_find_k_closest_elements;
 mod s0875_koko_eating_bananas;
 mod s0031_next_permutation;
+mod s0036_valid_sudoku;
