@@ -74,3 +74,4 @@ mod s2587_rearrange_array_to_maximize_prefix_score;
 mod s2588_count_the_number_of_beautiful_subarrays;
 mod s2582_pass_the_pillow;
 mod s2583_kth_largest_sum_in_a_binary_tree;
+mod s0215_kth_largest_element_in_an_array;
