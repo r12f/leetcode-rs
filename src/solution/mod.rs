@@ -77,3 +77,5 @@ mod s2583_kth_largest_sum_in_a_binary_tree;
 mod s0215_kth_largest_element_in_an_array;
 mod s0227_basic_calculator_ii;
 mod s0236_lowest_common_ancestor_of_a_binary_tree;
+mod s0560_subarray_sum_equals_k;
+mod s1091_shortest_path_in_binary_matrix;
