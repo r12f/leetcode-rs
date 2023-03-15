@@ -79,3 +79,8 @@ mod s0227_basic_calculator_ii;
 mod s0236_lowest_common_ancestor_of_a_binary_tree;
 mod s0560_subarray_sum_equals_k;
 mod s1091_shortest_path_in_binary_matrix;
+mod s0523_continuous_subarray_sum;
+mod s0334_increasing_triplet_subsequence;
+mod s0271_encode_and_decode_strings;
+mod s0091_decode_ways;
+mod s0015_3sum;
