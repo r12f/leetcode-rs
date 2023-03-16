@@ -84,3 +84,8 @@ mod s0334_increasing_triplet_subsequence;
 mod s0271_encode_and_decode_strings;
 mod s0091_decode_ways;
 mod s0015_3sum;
+mod s0162_find_peak_element;
+mod s0207_course_schedule;
+mod s0416_partition_equal_subset_sum;
+mod s0670_maximum_swap;
+mod s0785_is_graph_bipartite;
