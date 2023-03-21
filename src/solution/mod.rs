@@ -93,3 +93,8 @@ mod s2587_rearrange_array_to_maximize_prefix_score;
 mod s2588_count_the_number_of_beautiful_subarrays;
 mod s0695_max_area_of_island;
 mod s0886_possible_bipartition;
+mod s0945_minimum_increment_to_make_array_unique;
+mod s0490_the_maze;
+mod s0322_coin_change;
+mod s0323_number_of_connected_components_in_an_undirected_graph;
+mod s1352_product_of_the_last_k_numbers;
